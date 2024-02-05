@@ -57,7 +57,7 @@ nav .logo {
     margin: 0;
   }
   nav .mainMenu {
-    height: 100vh;
+    height: 120vh;
     position: fixed;
     top: -5rem;
     right: 0;
