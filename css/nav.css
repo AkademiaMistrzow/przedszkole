@@ -29,6 +29,10 @@ nav .mainMenu li a:hover {
   color: #4caf50;
 }
 
+#call:hover {
+    color: black;
+}
+
 nav .openMenu {
   font-size: 2rem;
   margin: 20px;
