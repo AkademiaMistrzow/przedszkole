@@ -22,10 +22,6 @@
             integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-        />
         <title>Przedszkole Rumia Akademia Mistrzów Zabawy</title>
     </head>
     <body>
@@ -928,5 +924,15 @@
         </footer>
         <script src="js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js" async></script>
+        <script>
+            (function () {
+                const cssFa = document.createElement('link');
+                cssFa.href =
+                    'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css';
+                cssFa.rel = 'stylesheet';
+                cssFa.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(cssFa);
+            })();
+        </script>
     </body>
 </html>
