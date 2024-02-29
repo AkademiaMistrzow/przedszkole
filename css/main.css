@@ -21,7 +21,7 @@ section {
 
 .content__img {
     width: 320px;
-    height: 100%;
+    height: 320px;
     padding-bottom: 1rem;
     cursor: zoom-in;
 }
