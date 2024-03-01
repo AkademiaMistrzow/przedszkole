@@ -46,7 +46,12 @@
     <body>
         <nav>
             <div class="openMenu">
-                <img src="images/menu_icon.svg" alt="Mobile menu icon" />
+                <img
+                    src="images/menu_icon.svg"
+                    alt="Mobile menu icon"
+                    width="32px"
+                    height="32px"
+                />
             </div>
             <ul class="mainMenu">
                 <li><a href="/">Start</a></li>
@@ -1021,7 +1026,7 @@
             const fontAwesomeScript = document.createElement('script');
             fontAwesomeScript.src = 'https://kit.fontawesome.com/6daa129d5f.js';
             fontAwesomeScript.crossorigin = 'anonymous';
-            fontAwesomeScript.defer = true;
+            fontAwesomeScript.async = true;
             document
                 .getElementsByTagName('head')[0]
                 .appendChild(fontAwesomeScript);
