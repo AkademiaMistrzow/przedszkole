@@ -22,6 +22,8 @@ section {
 .content__img {
     width: 320px;
     height: 100%;
+    min-width: 320px;
+    min-height: 320px;
     padding-bottom: 1rem;
     cursor: zoom-in;
 }
@@ -137,7 +139,6 @@ button:hover {
 
     .content__img {
         width: 100%;
-        min-width: 320px;
     }
 
     .groups {
