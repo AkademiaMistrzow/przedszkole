@@ -28,6 +28,10 @@ section {
     cursor: zoom-in;
 }
 
+.content__link {
+    color: black;
+}
+
 .offer {
     display: grid;
     grid-template-columns: 1fr;
