@@ -26,11 +26,10 @@ nav .mainMenu li a:hover {
 #call {
     padding-left: 20px;
     border-left: 1px solid gray;
-    color: #4caf50;
 }
 
 #call:hover {
-    color: black;
+    color: #4caf50;
 }
 
 nav .openMenu {
@@ -104,5 +103,6 @@ nav .logo {
         padding-left: 15px;
         border-left: 0px solid gray;
         color: #4caf50;
+        border-top: 1px solid gray;
     }
 }
