@@ -5,11 +5,17 @@ const menuContact = document.querySelector('#menu-contact');
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
-menuContact.addEventListener('click', close);
+
+menuContact.addEventListener('click', () => {
+    if (window.innerWidth < 800) {
+        close();
+    }
+});
 
 function show() {
     mainMenu.style.display = 'flex';
 }
+
 function close() {
     mainMenu.style.display = 'none';
 }

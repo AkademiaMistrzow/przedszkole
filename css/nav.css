@@ -10,6 +10,7 @@ nav .mainMenu {
     display: flex;
     list-style: none;
 }
+
 nav .mainMenu li a {
     display: inline-block;
     margin: 5px;
@@ -19,6 +20,7 @@ nav .mainMenu li a {
     color: black;
     font-size: 1rem;
 }
+
 nav .mainMenu li a:hover {
     color: #4caf50;
 }
@@ -39,6 +41,7 @@ nav .openMenu {
     cursor: pointer;
     color: black;
 }
+
 nav .mainMenu .closeMenu {
     font-size: 2rem;
     display: none;
@@ -55,10 +58,12 @@ nav .logo {
     font-size: 25px;
     cursor: pointer;
 }
+
 @media (max-width: 800px) {
     nav {
         margin: 0;
     }
+
     nav .mainMenu {
         height: 120vh;
         position: fixed;
@@ -73,26 +78,31 @@ nav .logo {
         transition: top 1s ease;
         display: none;
     }
+
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
         top: 7rem;
         right: 1.5rem;
     }
+
     .icons {
         display: block;
     }
+
     nav .openMenu {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     nav .mainMenu li a:hover {
         background: none;
         color: #5cd360;
         font-size: 1.6rem;
     }
+
     .icons i {
         display: inline-block;
         padding: 12px;
